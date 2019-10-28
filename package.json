@@ -1,0 +1,19 @@
+{
+  "name": "http2-node",
+  "version": "1.0.0",
+  "description": "``` openssl genrsa -des3 -passout pass:123456 -out key/server.pass.key 2048  openssl rsa -passin pass:123456 -in key/server.pass.key -out key/server.key ```",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "mongoose": "^5.7.7",
+    "through2": "^3.0.1"
+  }
+}
